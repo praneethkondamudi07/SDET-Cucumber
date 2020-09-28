@@ -3,7 +3,7 @@
 Feature: To validate registration and signin functionalities of elearning page
 
   @e2e
-  Scenario Outline: To validate successful registration 
+  Scenario Outline: To validate registration and send message functionalities 
     Given I navigate to "<URL>"
     And I click on SignUp button
     And I enter value into input field First Name
