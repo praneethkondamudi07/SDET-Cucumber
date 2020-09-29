@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="96.031">
+<testcase classname="To validate registration and signin functionalities of elearning page" name="To validate registration and send message functionalities" time="95.779">
+<system-out><![CDATA[Given I navigate to "http://elearningm1.upskills.in/index.php"..............passed
+And I click on SignUp button................................................passed
+And I enter value into input field First Name...............................passed
+And I enter value into input field Last Name................................passed
+And I enter value into input field email....................................passed
+And I enter value into input field Username.................................passed
+And I enter value into input field Password.................................passed
+And I enter value into input field Confirm Password.........................passed
+When I click on Register button.............................................passed
+Then I verify the message "Your personal settings have been registered."....passed
+And I click on user icon....................................................passed
+And I click on inbox link...................................................passed
+And I click on compose button...............................................passed
+And I enter value into input field Send To as "naveen"......................passed
+And I click on "naveen" in options list.....................................passed
+And I enter value into input field Subject..................................passed
+And I enter value into input field Message..................................passed
+When I click on submit button...............................................passed
+Then I should see success message as "The message has been sent to" and "naveen".passed
+]]></system-out>
+</testcase>
+</testsuite>
