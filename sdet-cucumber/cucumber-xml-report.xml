@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="52.803">
-<testcase classname="To validate registration and signin functionalities of elearning page" name="To validate successful registration" time="52.426">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="96.031">
+<testcase classname="To validate registration and signin functionalities of elearning page" name="To validate registration and send message functionalities" time="95.779">
 <system-out><![CDATA[Given I navigate to "http://elearningm1.upskills.in/index.php"..............passed
 And I click on SignUp button................................................passed
 And I enter value into input field First Name...............................passed
